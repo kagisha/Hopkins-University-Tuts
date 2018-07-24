@@ -1,0 +1,121 @@
+
+		/************ BASELINE STYLE BEGINS **************/
+* {
+    box-sizing: border-box;
+    font-family: Arial sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	text-align:center;
+	margin: 40px 0px;
+	font-size: 195%;
+	
+}
+
+div {
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom: 20px;
+     position: relative;
+}
+
+
+
+p{
+	margin:10px;
+	text-align: justify;
+	clear: left;
+	padding-top: 25px;
+	line-height: 1.2;
+
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 125%; 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:2px;
+     width: 160PX;
+     position: absolute;
+     right: 0;
+     top: 0;
+}
+
+.menu1 #Chicken {
+
+    background-color: red;
+    color: #000000;
+  
+}
+
+.menu2 #Sushi  {
+    background-color: maroon;
+    color: #FFFFFF;
+    
+}
+
+.menu3  #BeefLasagnia {
+    background-color: yellow;
+    color: #000000;
+  
+}
+/******** END OF BASE STYLES ****/
+
+/**********BEGINING OF MEDIA QUERIES STYLES *********/
+
+@media (min-width: 992px) {
+    div {
+        width: 90%;
+        margin-right: 5%;
+    
+       }
+
+    .menu1 {
+        margin-left: 5%;
+    }
+    .menu2{
+    	margin-left: 5%;
+    }
+
+    .menu3{
+    	margin-left: 5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    div {
+        float: left;
+        margin-right: 2.5%;
+        width: 46.25%;
+        box-sizing: border-box;
+    }
+    .menu1 {
+        margin-left: 2.5%;
+        height: 420px;
+    }
+    .menu2{
+    	height: 420px;
+    }
+
+    .menu3 {
+        margin-left: 2.5%;
+        width: 95%;
+    }
+   
+}
+
+@media (max-width: 767px) {
+    div {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        width: 85%;
+    }
+}
+
+/**********END OF MEDIA QUERIES STYLES *********/
